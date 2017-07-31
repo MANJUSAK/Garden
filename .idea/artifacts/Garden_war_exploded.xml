@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Garden:war exploded">
+    <output-path>D:/tomcat/apache-tomcat-8.5.14/webapps/Garden</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="Garden/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="Garden" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

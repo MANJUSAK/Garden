@@ -1,0 +1,380 @@
+/********* 导航编写 **********/
+
+.UBnav_center {
+	width: 80%;
+	height: 40px;
+	margin: 0 auto;
+}
+
+.UBnav_center_ul {
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+	white-space: nowrap;
+	background-color: #0196FD;
+}
+
+.UBnav_center_li {
+	width: auto;
+	height: 40px;
+	line-height: 40px;
+	float: left;
+}
+
+.UBnav_center_li a {
+	height: 40px;
+	display: block;
+	line-height: 40px;
+	padding: 0 30px;
+	color: white;
+}
+
+.UBnav_center_li a:hover {
+	background-color: #0080d9;
+}
+
+.UBnav_center_aBg {
+	background-color: #0080d9;
+}
+
+
+/********* 导航编写 结束 **********/
+
+.UB_contont {
+	width: 100%;
+	height: auto;
+}
+
+.UB_centert {
+	padding-top: 20px;
+	width: 80%;
+	height: 800px;
+	margin: 0 auto;
+	background-color: #FFFFFF;
+	min-width: 1024px;
+}
+
+.UB_border {
+	width: 100%;
+	height: auto;
+	border-top: 1px solid #d9d9d9;
+	border-left: 1px solid #d9d9d9;
+}
+
+.UB_centert_one {
+	width: 100%;
+	height: auto;
+	display: flex;
+	background-color: white;
+}
+
+
+/* 第一横排的样式 */
+
+.UB_centert_one div {
+	height: auto;
+	float: left;
+	border-right: 1px solid #d9d9d9;
+	border-bottom: 1px solid #d9d9d9;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+}
+
+.UBc_one_1,
+.UBc_one_2,
+.UBc_one_3,
+.UBc_one_4,
+.UBc_one_5,
+.UBc_one_6 {
+	padding-left: 5px;
+}
+
+.UBc_one_1 {
+	width: 5%;
+	display: block;
+	text-align: center !important;
+	padding-left: 0px !important;
+}
+
+.UBc_one_1 input {
+	cursor: pointer;
+}
+
+.UBc1_input{
+	margin-top: 13px;
+}
+.UBc_one_2 {
+	width: 25%;
+}
+
+.UBc_one_3 {
+	width: 20%;
+}
+
+.UBc_one_4 {
+	width: 10%;
+}
+
+.UBc_one_5 {
+	width: 10%;
+}
+
+.UBc_one_6 {
+	width: 30%;
+}
+
+
+/* 第一横排的样式  结束*/
+
+
+/* 第二横排的样式（含有图片） */
+
+.UB_centert_two {
+	width: 100%;
+	height: auto;
+	display: flex;
+	background-color: #F9F9F9;
+}
+
+.UBc_two_1,
+.UBc_two_2,
+.UBc_two_3,
+.UBc_two_4,
+.UBc_two_5,
+.UBc_two_6 {
+	height: auto;
+	float: left;
+	border-right: 1px solid #d9d9d9;
+	border-bottom: 1px solid #d9d9d9;
+	height: 60px;
+	line-height: 60px;
+	padding-left: 5px;
+}
+
+.UBc_two_1,
+.UBc_two_2,
+.UBc_two_3,
+.UBc_two_4,
+.UBc_two_5 {
+	text-align: center;
+}
+
+.UBc_two_1 {
+	width: 5%;
+	display: block;
+	text-align: center !important;
+	padding-left: 0px !important;
+}
+
+.UBc_two_1 input {
+	cursor: pointer;
+}
+
+.UBc_two_2 {
+	width: 25%;
+}
+.UBc2_input{
+	margin-top: 23px;
+}
+.UBc_two_3 {
+	width: 20%;
+}
+
+.UBc_two_4 {
+	width: 10%;
+}
+
+.UBc_two_4 a {
+	color: #0096FD;
+}
+
+.UBc_two_5 {
+	width: 10%;
+}
+
+.UBc_two_5 a {
+	color: #FF0000;
+}
+
+.UBc_two_6 {
+	width: 30%;
+	padding-left: 5px;
+	overflow: hidden;
+}
+
+.UBc_two_6_imgZong {
+	width: 100%;
+	height: 60px;
+	line-height: 60px;
+	border: none;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.UBc_two_6_imgZong img {
+	line-height: 58px;
+	max-height: 29px;
+	max-width: 100%;
+	display: block;
+	float: left;
+	margin: 0 1px;
+	vertical-align: middle;
+}
+
+
+/* 第二横排的样式  结束*/
+
+
+/*** 通过按钮和不通过按钮 ***/
+
+.UBc_C_censor {
+	width: 80%;
+	margin: 0 auto;
+	text-align: right 100px;
+	padding-bottom: 30px;
+	min-width: 1024px;
+	text-align: right;
+}
+
+
+/* 审核不通过的理由 */
+
+.UBc_C_censor_one {
+	width: 100%;
+	height: 120px;
+	text-align: left;
+	border: 1px solid #C1C1C1;
+	border-radius: 4px;
+	display: none;
+	color: red;
+}
+
+.UBc_C_censor_one p {
+	width: 98%;
+	border-bottom: 1px solid #E1E0E5;
+	line-height: 30px;
+	margin-left: 1%;
+}
+
+.UBc_Cc_one_text {
+	width: 98%;
+	height: 80px;
+	padding-left: 1%;
+	outline: none;
+	resize: none;
+	line-height: 26px;
+	border: none;
+}
+
+
+/* 审核不通过的理由 结束 */
+
+.UBc_right {
+	width: auto;
+	height: auto;
+	padding-top: 15px;
+	padding-bottom: 30px;
+	border-right: 50px solid white;
+}
+
+.UBc_right_select {
+	width: 150px;
+	height: 34px;
+	outline: none;
+	border-radius: 2px;
+}
+
+.UBc_right input {
+	width: 100px;
+	height: 34px;
+	margin-left: 25px;
+	cursor: pointer;
+	border: 1px solid #1AA0FC;
+	background-color: #0096FD;
+	border-radius: 2px;
+	color: white;
+}
+
+
+/*** 通过按钮和不通过按钮 ***/
+
+
+/********** 蒙层 *********/
+
+.UB_mengceng {
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	background-color: rgba(0, 0, 0, 0.5);
+	display: none;
+}
+
+.UB_mengcheng_center {
+	height: 500px;
+	width: 1%;
+	text-align: center;
+	display: table-cell;
+	vertical-align: middle;
+	margin: 0 auto;
+	position: relative;
+}
+
+.UB_mengcheng_center img {
+	max-height: 100%;
+	max-width: 100%;
+}
+
+.UB_mc_center_absolute {
+	position: absolute;
+	top: 5px;
+	right: 5px;
+	cursor: pointer;
+}
+
+
+/********** 蒙层 结束 *********/
+
+
+/************ 头部的显示用户名称和点击退出 ************/
+
+.logo_R {
+	width: 60%;
+	height: 60px;
+	line-height: 60px;
+	float: right;
+	text-align: right;	
+}
+.logo_R_name{
+	color: #006400;
+	text-align: center;
+}
+.logo_R_quit{
+	cursor: pointer;
+}
+/************ 头部的显示用户名称和点击退出 结束 ************/
+
+
+/*********** 编写修改样式为 mix-width:1024。因为这是打开的***********/
+
+.UBnav_center {
+	min-width: 1024px;
+}
+
+footer {
+	min-width: 1024px;
+}
+
+
+
+
+/*********** 编写修改样式为 mix-width:1024。因为这是打开的***********/
+
+@media only screen and (min-width: 100px) and (max-width: 500px) {
+	.UB_mc_center_absolute img {
+		width: 30px;
+		height: 30px;
+	}
+}

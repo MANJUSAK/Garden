@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlrewrite>
+	<rule>
+		<from>/news/register.html</from>
+		<to>/manager/register.jsp</to>
+	</rule>
+	<rule>
+		<from>/news/login.html</from>
+		<to>/manager/login.jsp</to>
+	</rule>
+</urlrewrite>

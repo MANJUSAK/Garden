@@ -1,0 +1,582 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: "微软雅黑";
+}
+
+a {
+	text-decoration: none;
+}
+
+li {
+	list-style: none;
+}
+
+header {
+	width: 100%;
+	height: auto;
+}
+
+header .header-topbar {
+	width: 100%;
+	height: 80px;
+	background: white;
+	position: relative;
+}
+
+header .header-topbar .ht-box {
+	width: 80%;
+	height: 60px;
+	position: absolute;
+	top: 10px;
+	left: 10%;
+}
+
+header .header-topbar .ht-box .logo {
+	width: 30%;
+	height: 60px;
+	float: left;
+}
+
+header .header-topbar .ht-box .logo .logo-img {
+	width: 25%;
+	height: 60px;
+	float: left;
+}
+
+header .header-topbar .ht-box .logo .logo-img img {
+	width: auto;
+	height: 60px;
+}
+
+header .header-topbar .ht-box .logo .logo-text {
+	width: 75%;
+	height: 60px;
+	float: left;
+	position: relative;
+}
+
+header .header-topbar .ht-box .logo .logo-text .lt-content {
+	width: 100%;
+	height: 50px;
+	position: absolute;
+	top: 5px;
+}
+
+header .header-topbar .ht-box .logo .logo-text .lt-content .lt-topbar {
+	width: 100%;
+	height: 35px;
+}
+
+header .header-topbar .ht-box .logo .logo-text .lt-content .lt-topbar h2 {
+	line-height: 35px;
+	color: #0A4C98;
+}
+
+header .header-topbar .ht-box .logo .logo-text .lt-content .lt-inner {
+	width: 100%;
+	height: 15px;
+}
+
+header .header-topbar .ht-box .logo .logo-text .lt-content .lt-inner p {
+	line-height: 15px;
+	font-size: 12px;
+	color: #9D9D9D;
+	font-weight: bold;
+}
+
+header .header-topbar .ht-box .ht-right {
+	width: 45%;
+	height: 60px;
+	float: right;
+	position: relative;
+}
+
+header .header-topbar .ht-box .ht-right .right-box {
+	width: 100%;
+	height: 40px;
+	position: absolute;
+	top: 10px;
+}
+
+header .header-topbar .ht-box .ht-right .right-box .rb-search {
+	width: 65%;
+	height: 40px;
+	float: left;
+	position: relative;
+}
+
+header .header-topbar .ht-box .ht-right .right-box .rb-search .search-content {
+	width: 100%;
+	height: 30px;
+	position: absolute;
+	top: 5px;
+}
+
+header .header-topbar .ht-box .ht-right .right-box .rb-search .search-content .sc-input {
+	width: 70%;
+	height: 30px;
+	float: left;
+}
+
+header .header-topbar .ht-box .ht-right .right-box .rb-search .search-content .sc-input input {
+	width: 100%;
+	height: 28px;
+	border: none;
+	border: 1px solid #DFDFDF;
+	border-right: none;
+}
+
+header .header-topbar .ht-box .ht-right .right-box .rb-search .search-content .sc-icon {
+	width: 30%;
+	height: 30px;
+	float: left;
+	background: #0196FD;
+}
+
+header .header-topbar .ht-box .ht-right .right-box .rb-search .search-content .sc-icon a {
+	display: block;
+	text-align: center;
+	line-height: 30px;
+	color: white;
+	font-size: 14px;
+}
+
+header .header-topbar .ht-box .ht-right .right-box .rb-login {
+	width: 35%;
+	height: 40px;
+	float: left;
+	position: relative;
+}
+
+header .header-topbar .ht-box .ht-right .right-box .rb-login .rl-box {
+	width: 100%;
+	height: 20px;
+	position: absolute;
+	top: 10px;
+}
+
+header .header-topbar .ht-box .ht-right .right-box .rb-login .rl-box .rl-left {
+	width: 50%;
+	height: 20px;
+	border-right: 1px solid #E1E0E5;
+	float: left;
+}
+
+header .header-topbar .ht-box .ht-right .right-box .rb-login .rl-box .rl-left a {
+	display: block;
+	text-align: center;
+	line-height: 20px;
+	font-size: 14px;
+	color: #727272;
+}
+
+header .header-topbar .ht-box .ht-right .right-box .rb-login .rl-box .rl-left a:hover {
+	color: #0196FD;
+}
+
+header .header-topbar .ht-box .ht-right .right-box .rb-login .rl-box .rl-right {
+	width: 49%;
+	height: 20px;
+	float: left;
+}
+
+header .header-topbar .ht-box .ht-right .right-box .rb-login .rl-box .rl-right a {
+	display: block;
+	text-align: center;
+	line-height: 20px;
+	font-size: 14px;
+	color: #727272;
+}
+
+header .header-topbar .ht-box .ht-right .right-box .rb-login .rl-box .rl-right a:hover {
+	color: #0196FD;
+}
+
+header .header-topbar .ht-box .ht-right .right-box .rb-login .rl-box2 {
+	width: 100%;
+	height: 20px;
+	position: absolute;
+	top: 10px;
+	display: none;
+}
+
+header .header-topbar .ht-box .ht-right .right-box .rb-login .rl-box2 .box2-left {
+	width: 80%;
+	height: 20px;
+	float: left;
+	overflow: hidden;
+}
+
+header .header-topbar .ht-box .ht-right .right-box .rb-login .rl-box2 .box2-left span {
+	font-size: 12px;
+	line-height: 20px;
+}
+
+header .header-topbar .ht-box .ht-right .right-box .rb-login .rl-box2 .box2-left a {
+	line-height: 20px;
+	font-size: 12px;
+	color: #727272;
+}
+
+header .header-topbar .ht-box .ht-right .right-box .rb-login .rl-box2 .box2-left a:hover {
+	color: #0196FD;
+	text-decoration: underline;
+}
+
+header .header-topbar .ht-box .ht-right .right-box .rb-login .rl-box2 .box2-right {
+	width: 20%;
+	height: 20px;
+	float: left;
+}
+
+header .header-topbar .ht-box .ht-right .right-box .rb-login .rl-box2 .box2-right a {
+	display: block;
+	text-align: center;
+	line-height: 20px;
+	color: #E00303;
+	font-size: 12px;
+}
+
+header .header-navs {
+	width: 100%;
+	height: 40px;
+	background: #0196FD;
+}
+
+header .header-navs .hn-box {
+	width: 80%;
+	height: 40px;
+	margin: 0 auto;
+}
+
+header .header-navs .hn-box ul li {
+	float: left;
+	position: relative;
+}
+
+header .header-navs .hn-box ul li:hover .hn-nav2 {
+	display: block;
+}
+
+header .header-navs .hn-box ul li a {
+	color: white;
+	padding: 10.5px 30px;
+	line-height: 40px;
+	font-size: 14px;
+}
+
+header .header-navs .hn-box ul li a:hover {
+	background: #0080D9;
+}
+
+header .header-navs .hn-box ul li .hn-nav2 {
+	width: 100%;
+	height: 160px;
+	background: rgba(0, 0, 0, 0.35);
+	position: absolute;
+	top: 40px;
+	left: 0;
+	z-index: 999;
+	display: none;
+}
+
+header .header-navs .hn-box ul li .hn-nav2 .hn-nav2-item {
+	width: 100%;
+	height: 40px;
+}
+
+header .header-navs .hn-box ul li .hn-active {
+	background: #0080D9;
+}
+
+footer {
+	width: 100%;
+	height: 130px;
+	background: #0065AB;
+	margin-top: 30px;
+	position: relative;
+}
+
+footer .footer-box {
+	width: 80%;
+	height: 120px;
+	position: absolute;
+	top: 10px;
+	left: 10%;
+}
+
+footer .footer-box .fb-topbar {
+	width: 100%;
+	height: 50px;
+}
+
+footer .footer-box .fb-topbar ul {
+	text-align: center;
+}
+
+footer .footer-box .fb-topbar ul li {
+	display: inline-block;
+	padding: 0 10px;
+}
+
+footer .footer-box .fb-topbar ul li a {
+	font-size: 14px;
+	color: #FFFFFF;
+	line-height: 35px;
+}
+
+footer .footer-box .fb-topbar ul span {
+	font-size: 14px;
+	color: #FFFFFF;
+}
+
+footer .footer-box .fb-topbar p {
+	text-align: center;
+	color: white;
+	font-size: 14px;
+	line-height: 40px;
+}
+
+footer .footer-box .fb-content {
+	width: 100%;
+	height: 40px;
+}
+
+footer .footer-box .fb-content ul {
+	text-align: center;
+}
+
+footer .footer-box .fb-content ul li {
+	display: inline-block;
+	height: 40px;
+}
+
+footer .footer-box .fb-content ul li span {
+	float: left;
+}
+
+footer .footer-box .fb-content ul li span img {
+	width: 100%;
+	height: 38px;
+}
+
+footer .footer-box .fb-content ul li a {
+	float: left;
+	font-size: 12px;
+	color: #515151;
+	padding: 11px 10px;
+	background: #EFEFEF;
+}
+
+.my-icon {
+	width: 50px;
+	height: 50px;
+	position: fixed;
+	top: 40%;
+	left: 20px;
+	display: none;
+}
+
+.my-icon a img {
+	width: 100%;
+	height: 50px;
+}
+
+.return-top {
+	width: 40px;
+	height: 80px;
+	position: fixed;
+	top: 60%;
+	right: 20px;
+	display: none;
+}
+
+.return-top span {
+	display: block;
+	width: 100%;
+	height: 40px;
+}
+
+.return-top span i {
+	display: block;
+	line-height: 40px;
+	text-align: center;
+	font-size: 24px;
+	color: #999;
+	cursor: pointer;
+}
+
+.return-top span i:hover {
+	color: #5EBDFE;
+}
+
+.xqfb-mnav {
+	display: none;
+	width: 100%;
+	height: auto;
+}
+
+.xqfb-mnav> ul {
+	width: 100%;
+	height: auto;
+	text-align: center;
+	font-size: 0;
+	background: white;
+}
+
+.xqfb-mnav> ul> li {
+	display: inline-block;
+	width: 25%;
+	height: auto;
+	background: white;
+}
+
+.xqfb-mnav> ul> li> a {
+	color: black;
+	font-size: 16px;
+	display: inline-block;
+	padding: 10px 0;
+}
+
+.xqgbm-acive {
+	background: #007FDA !important;
+}
+
+.xqgbm-acive> a {
+	color: white !important;
+}
+
+@media only screen and (min-width: 100px) and (max-width: 1025px) {
+	.header-topbar {
+		height: 50px !important;
+	}
+	.ht-box {
+		width: 100% !important;
+		height: 50px !important;
+		position: absolute !important;
+		left: 0 !important;
+		top: 0 !important;
+		padding: 0px 5px;
+		padding-right: 0 !important;
+		padding-left: 0 !important;
+	}
+	.ht-right {
+		width: 120px !important;
+		margin-right: 25px;
+		height: 40px !important;
+	}
+	.logo {
+		width: 60% !important;
+	}
+	.rb-search {
+		display: none;
+	}
+	.rb-login {
+		width: 120px !important;
+	}
+	.lt-topbar> h2 {
+		font-size: 20px;
+		line-height: 45px !important;
+	}
+	.logo {
+		width: 100px !important;
+		height: 40px !important;
+		margin-top: 5px;
+	}
+	.logo-img {
+		width: 48px !important;
+		height: 40px !important;
+		margin-left: 40px;
+	}
+	.logo-img img {
+		width: 40px !important;
+		line-height: 40px !important;
+		height: auto !important;
+	}
+	.logo-text {
+		display: none;
+	}
+	.right-box {
+		top: 3px !important;
+	}
+	/*导航栏*/
+	.hn-box {
+		width: 100% !important;
+		white-space: nowrap;
+	}
+	.hn-box> ul {
+		width: 100%;
+		height: auto;
+		white-space: nowrap;
+		overflow-x: auto;
+	}
+	::-webkit-scrollbar {
+		width: 0px;
+		height: 0px;
+	}
+	.hn-box> ul> li {
+		float: none !important;
+		display: inline-block !important;
+	}
+	.hn-nav2 {
+		display: none !important;
+	}
+	.bb-inner {
+		display: none;
+	}
+	footer {
+		margin-top: 0px !important;
+		height: auto !important;
+	}
+	.footer-box {
+		position: static !important;
+		margin: 0 auto !important;
+		height: auto !important;
+	}
+	.fb-topbar {
+		height: auto !important;
+	}
+	.fb-content {
+		display: none;
+		height: auto !important;
+	}
+	/*回到顶部*/
+	.return-top {
+		display: none !important;
+	}
+	/*我的资料*/
+	.my-icon {
+		position: fixed;
+		top: 40% !important;
+		left: 80% !important;
+	}
+	/*底部导航*/
+	.fb-topbar> ul {
+		display: none;
+	}
+	.fb-topbar {
+		padding: 10px 0;
+	}
+	footer .footer-box .fb-topbar p {
+		line-height: 20px;
+	}
+	.xqfb-mnav {
+		display: block;
+		width: 100%;
+		height: auto;
+	}
+	header .header-topbar .ht-box {
+		/*padding-top: 10px;*/
+	}
+}
+
+@media only screen and (min-width: 1026px) and (max-width: 1120px) {
+	footer {
+		height: 190px !important;
+		color: red !important;
+	}
+}

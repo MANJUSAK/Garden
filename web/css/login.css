@@ -1,0 +1,444 @@
+input {
+	outline: none;
+}
+
+.login-section {
+	width: 100%;
+	height: 700px;
+	position: relative;
+	background: url(../img/11.jpg);
+	background-size: 100% 700px;
+}
+
+.login-section .ls-box {
+	width: 60%;
+	height: 460px;
+	position: absolute;
+	top: 95px;
+	left: 20%;
+}
+
+.login-section .ls-box .ls-left {
+	width: 60%;
+	height: 460px;
+	float: left;
+	background: #F9FDFF;
+}
+
+.login-section .ls-box .ls-left .ls-left-title {
+	color: #FFFFFF;
+	width: 100%;
+	height: 40px;
+	display: none;
+}
+
+.login-section .ls-box .ls-left .ls-left-title .ls-left-title-L {
+	width: 50%;
+	height: 40px;
+	line-height: 40px;
+	float: left;
+	text-align: center;
+	cursor: pointer;
+	font-family: "黑体";
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	background-color: #0080d8;
+	font-size: 1.0em;
+}
+
+.login-section .ls-box .ls-left .ls-left-title .ls-left-title-R {
+	width: 50%;
+	height: 40px;
+	line-height: 40px;
+	float: left;
+	background-color: #0196FD;
+	text-align: center;
+	cursor: pointer;
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	font-size: 1.0em;
+}
+
+.login-section .ls-box .ls-left .ls-left-topbar {
+	width: 100%;
+	height: 290px;
+	background: #F9FDFF;
+	position: relative;
+}
+
+.login-section .ls-box .ls-left .ls-left-topbar .ls-lt-container {
+	width: 80%;
+	height: 280px;
+	position: absolute;
+	top: 10px;
+	left: 10%;
+}
+
+.login-section .ls-box .ls-left .ls-left-topbar .ls-lt-container .ls-title
+	{
+	width: 100%;
+	height: 50px;
+}
+
+.login-section .ls-box .ls-left .ls-left-topbar .ls-lt-container .ls-title span
+	{
+	font-size: 1.8em;
+	margin: 0 auto;
+	display: block;
+	text-align: center;
+	line-height: 50px;
+}
+
+.login-section .ls-box .ls-left .ls-left-topbar .ls-lt-container .ls-lt-item
+	{
+	width: 100%;
+	height: 42px;
+	margin-top: 10px;
+	border-radius: 3px;
+}
+
+.login-section .ls-box .ls-left .ls-left-topbar .ls-lt-container .ls-lt-item .ls-item-icon
+	{
+	width: 15%;
+	height: 42px;
+	float: left;
+	background: #E4E4E4;
+	border-radius: 3px 0 0 3px;
+}
+
+.login-section .ls-box .ls-left .ls-left-topbar .ls-lt-container .ls-lt-item .ls-item-icon i
+	{
+	display: block;
+	text-align: center;
+	line-height: 40px;
+	color: white;
+	font-size: 24px;
+}
+
+.login-section .ls-box .ls-left .ls-left-topbar .ls-lt-container .ls-lt-item .ls-item-input
+	{
+	width: 85%;
+	height: 40px;
+	float: left;
+	border-radius: 0 3px 3px 0;
+}
+
+.login-section .ls-box .ls-left .ls-left-topbar .ls-lt-container .ls-lt-item .ls-item-input input
+	{
+	width: 444px;
+	padding: 0px 10px;
+	height: 42px;
+	border: none;
+	font-size: 0.875em;
+	border-radius: 0 3px 3px 0;
+	border: 1px solid #E4E4E4;
+}
+
+.login-section .ls-box .ls-left .ls-left-topbar .ls-lt-container .checkbox
+	{
+	width: 100%;
+	height: 60px;
+}
+
+.login-section .ls-box .ls-left .ls-left-topbar .ls-lt-container .checkbox .cb-left
+	{
+	width: 50%;
+	height: 60px;
+	float: left;
+}
+
+.login-section .ls-box .ls-left .ls-left-topbar .ls-lt-container .checkbox .cb-left span
+	{
+	font-size: 14px;
+	line-height: 60px;
+}
+
+.login-section .ls-box .ls-left .ls-left-topbar .ls-lt-container .checkbox .cb-right
+	{
+	width: 50%;
+	height: 60px;
+	float: left;
+}
+
+.login-section .ls-box .ls-left .ls-left-topbar .ls-lt-container .checkbox .cb-right a
+	{
+	float: right;
+	font-size: 14px;
+	color: #208BDB;
+	line-height: 60px;
+	display: none;
+}
+
+.login-section .ls-box .ls-left .ls-left-topbar .ls-lt-container .ls-submit
+	{
+	width: 100%;
+	height: 40px;
+	background: #0096FD;
+	border-radius: 4px;
+	cursor: pointer;
+	text-align: center;
+	line-height: 50px;
+}
+
+.login-section .ls-box .ls-left .ls-left-topbar .ls-lt-container .ls-submit button
+	{
+	background: none;
+	border: none;
+	width: 100%;
+	height: 100%;
+	display: block;
+	cursor: pointer;
+	font-size: 20px;
+	color: white;
+}
+
+.login-section .ls-box .ls-left .ls-left-topbar .ls-lt-container .ls-left-footer
+	{
+	width: 100%;
+	height: 40px;
+}
+
+.login-section .ls-box .ls-left .ls-left-topbar .ls-lt-container .ls-left-footer span
+	{
+	line-height: 40px;
+	font-size: 14px;
+}
+
+.login-section .ls-box .ls-left .ls-left-topbar .ls-lt-container .ls-left-footer span a
+	{
+	color: #208BDB;
+}
+
+.login-section .ls-box .ls-left .ls-left-inner {
+	width: 100%;
+	height: 100px;
+	background: #F9FDFF;
+}
+
+.login-section .ls-box .ls-left .ls-left-inner .ls-li-title {
+	width: 100%;
+	height: 16px;
+}
+
+.login-section .ls-box .ls-left .ls-left-inner .ls-li-title span {
+	display: block;
+	text-align: center;
+	font-size: 14px;
+	color: #ABACAC;
+}
+
+.login-section .ls-box .ls-left .ls-left-inner .ls-li-content {
+	width: 100%;
+	height: 84px;
+	position: relative;
+}
+
+.login-section .ls-box .ls-left .ls-left-inner .ls-li-content .ll-cb {
+	width: 65%;
+	height: 50px;
+	position: absolute;
+	top: 17px;
+	left: 20%;
+}
+
+.login-section .ls-box .ls-left .ls-left-inner .ls-li-content .ll-cb span
+	{
+	line-height: 50px;
+	padding: 15px;
+	font-size: 28px;
+}
+
+.login-section .ls-box .ls-left .ls-left-inner .ls-li-content .ll-cb span a i img
+	{
+	width: 28px;
+	height: 28px;
+}
+
+.login-section .ls-box .ls-right {
+	width: 40%;
+	height: 460px;
+	float: left;
+	background: white;
+	position: relative;
+}
+
+.login-section .ls-box .ls-right .lr-box {
+	width: 90%;
+	height: 260px;
+	position: absolute;
+	top: 85px;
+	left: 5%;
+}
+
+.login-section .ls-box .ls-right .lr-box .lr-logo {
+	width: 100%;
+	height: 55px;
+}
+
+.login-section .ls-box .ls-right .lr-box .lr-logo .llo-img {
+	width: 30%;
+	height: 55px;
+	float: left;
+}
+
+.login-section .ls-box .ls-right .lr-box .lr-logo .llo-img img {
+	width: auto;
+	height: 55px;
+}
+
+.login-section .ls-box .ls-right .lr-box .lr-logo .llo-right {
+	width: 70%;
+	height: 50px;
+	float: left;
+}
+
+.login-section .ls-box .ls-right .lr-box .lr-logo .llo-right .llo-title
+	{
+	width: 100%;
+	height: 35px;
+}
+
+.login-section .ls-box .ls-right .lr-box .lr-logo .llo-right .llo-title h2
+	{
+	line-height: 35px;
+	color: #0A4C98;
+}
+
+.login-section .ls-box .ls-right .lr-box .lr-logo .llo-right .llo-text {
+	width: 100%;
+	height: 15px;
+}
+
+.login-section .ls-box .ls-right .lr-box .lr-logo .llo-right .llo-text p
+	{
+	font-size: 12px;
+	line-height: 15px;
+	color: #A7A7A7;
+}
+
+.login-section .ls-box .ls-right .lr-box .lr-footer {
+	width: 100%;
+	height: 175px;
+	margin-top: 30px;
+}
+
+.login-section .ls-box .ls-right .lr-box .lr-footer p {
+	font-size: 14px;
+	line-height: 25px;
+	color: #656565;
+}
+
+.login-yaler {
+	width: 100%;
+	height: 890px;
+	background: rgba(0, 0, 0, 0.3);
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: none;
+	z-index: 9999;
+}
+
+.login-yaler .ly-box {
+	width: 30%;
+	height: 215px;
+	position: absolute;
+	top: 317px;
+	left: 35%;
+	background: white;
+}
+
+.login-yaler .ly-box h3 {
+	color: #0196FD;
+	text-align: center;
+	line-height: 100px;
+}
+
+.login-yaler .ly-box span {
+	display: block;
+	text-align: center;
+	line-height: 100px;
+}
+
+.login-yaler .ly-box span a {
+	padding: 5px 20px;
+	background: #0196FD;
+	font-size: 14px;
+	color: white;
+	border-radius: 3px;
+}
+
+.hint {
+	height: 20px;
+	display: block;
+}
+
+.hint img {
+	vertical-align: middle;
+	margin-top: -3px;
+	padding-right: 3px;
+}
+
+/* 登录和注册的小图标 */
+.login-section .ls-box .ls-left .ls-left-topbar .ls-lt-container .ls-lt-item .ls-item-icon1
+	{
+	background-image: url(../img/user_u1.png);
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+.login-section .ls-box .ls-left .ls-left-topbar .ls-lt-container .ls-lt-item .ls-item-icon2
+	{
+	background-image: url(../img/user_u2.png);
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+.login-section .ls-box .ls-left .ls-left-topbar .ls-lt-container .ls-lt-item .ls-item-icon3
+	{
+	background-image: url(../img/user_u3.png);
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+/* 登录和注册的小图标 结束 */
+@media only screen and (min-width: 100px) and (max-width: 1024px) {
+	.login-section {
+		background: url(../img/11.jpg) no-repeat;
+		padding-top: 20%;
+	}
+	.ls-right {
+		display: none;
+	}
+	.ls-box {
+		width: 90% !important;
+		margin: 0 auto;
+		position: static !important;
+		left: 0 !important;
+		top: 0 !important;
+		margin: 0 auto;
+	}
+	.ls-left {
+		width: 100% !important;
+	}
+	.ll-cb {
+		width: 100% !important;
+		position: static !important;
+		top: 0 !important;
+		left: 0 !important;
+		text-align: center;
+		margin-top: 20px;
+	}
+	.ls-left-topbar {
+		height: auto !important;
+	}
+	.ls-lt-container {
+		height: auto !important;
+		position: static !important;
+		top: 0 !important;
+		left: 0 !important;
+		margin: 0 auto !important;
+	}
+	.ls-left-inner {
+		display: none;
+	}
+}
